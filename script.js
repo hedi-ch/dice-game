@@ -28,51 +28,27 @@ const rand=function (p){
      switch(image_num){
         case '1':
             document.querySelector('#img1').style.display='inline';
-            document.querySelector('#img2 ').style.display='none';
-            document.querySelector('#img3 ').style.display='none';
-            document.querySelector('#img4 ').style.display='none';
-            document.querySelector('#img5 ').style.display='none';
-            document.querySelector('#img6 ').style.display='none';
+            document.querySelectorAll('#img2,#img3,#img4,#img5,#img6 ').style.display='none';
             break;
         case '2':
             document.querySelector('#img2').style.display='inline';
-            document.querySelector('#img1').style.display='none';
-            document.querySelector('#img3 ').style.display='none';
-            document.querySelector('#img4 ').style.display='none';
-            document.querySelector('#img5 ').style.display='none';
-            document.querySelector('#img6 ').style.display='none';
+            document.querySelectorAll('#img1,#img3,#img4,#img5,#img6 ').style.display='none';
             break;
         case '3':
             document.querySelector('#img3').style.display='inline';
-            document.querySelector('#img2 ').style.display='none';
-            document.querySelector('#img1 ').style.display='none';
-            document.querySelector('#img4 ').style.display='none';
-            document.querySelector('#img5 ').style.display='none';
-            document.querySelector('#img6 ').style.display='none';
+            document.querySelectorAll('#img2,#img1,#img4,#img5,#img6 ').style.display='none';
             break;
         case '4':
             document.querySelector('#img4').style.display='inline';
-            document.querySelector('#img2 ').style.display='none';
-            document.querySelector('#img3 ').style.display='none';
-            document.querySelector('#img1 ').style.display='none';
-            document.querySelector('#img5 ').style.display='none';
-            document.querySelector('#img6 ').style.display='none';
+            document.querySelectorAll('#img2,#img3,#img1,#img5,#img6 ').style.display='none';
             break;
         case '5':
             document.querySelector('#img5').style.display='inline';
-            document.querySelector('#img2 ').style.display='none';
-            document.querySelector('#img3 ').style.display='none';
-            document.querySelector('#img4 ').style.display='none';
-            document.querySelector('#img1 ').style.display='none';
-            document.querySelector('#img6 ').style.display='none';
+            document.querySelectorAll('#img2,#img3,#img4,#img1,#img6 ').style.display='none';
             break;
         case '6':
             document.querySelector('#img6').style.display='inline';
-            document.querySelector('#img2 ').style.display='none';
-            document.querySelector('#img3 ').style.display='none';
-            document.querySelector('#img4 ').style.display='none';
-            document.querySelector('#img5 ').style.display='none';
-            document.querySelector('#img1 ').style.display='none';
+            document.querySelectorAll('#img2,#img3,#img4,#img5,#img1 ').style.display='none';
             break;
     }
  }
